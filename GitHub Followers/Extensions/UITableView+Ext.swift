@@ -6,4 +6,11 @@
 //  Copyright © 2022 ramy. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension UITableView {
+    
+    func removeExcessCells() {
+        tableFooterView = UIView(frame: .zero)
+    }
+}

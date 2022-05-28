@@ -6,4 +6,13 @@
 //  Copyright © 2022 ramy. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension UIView {
+    
+    func addSubViews(_ views: UIView...) {
+        for view in views {
+            addSubview(view)
+        }
+    }
+}
